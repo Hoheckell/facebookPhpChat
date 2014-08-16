@@ -1,0 +1,162 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    height: 100%;
+}
+
+body{
+    background-color: #ccc;
+    height: 100%;
+}
+.left{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width: 10%;
+    height: 100%;
+    background-color: #eee;
+    border-right: 1px #333 solid;
+    padding-left:2%;
+}
+
+.left ul li{
+    list-style: none;
+    padding: 3px;
+}
+.left ul li a{
+    text-decoration: none;
+}
+.right{
+    position: absolute;
+    top:0px;
+    right: 0px;
+    width: 85%;
+    height: 100%;
+    padding-left:2%;
+}
+#janelas{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 85%;
+}
+.lida{
+    font-weight: bold;
+    background: #feffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #feffff 0%, #efedf4 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#feffff), color-stop(100%,#efedf4)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #feffff 0%,#efedf4 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #feffff 0%,#efedf4 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #feffff 0%,#efedf4 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #feffff 0%,#efedf4 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#efedf4',GradientType=0 ); /* IE6-9 */
+
+}
+div.miniwindow{
+    width: 230px;
+    background: #069;
+    float: right;
+    margin-bottom: 0px;
+    border-left: #333;
+    border-right: #333;
+    margin: 0px 3px;
+}
+.comecar{
+    color:#333;
+    background-color: #fff;
+}
+div.miniwindow input[type=text]{
+    padding: 3px;
+    border:0;
+    outline: none;
+    background: #f4f4f4;
+    font: 13px arial,tahoma;
+    height: 21px;
+    width: 224px;
+    color: #333;
+}
+div.miniwindow div.corpo div.mensagens{
+    float: left;
+    width: 230px;
+    background: #fff;
+    height: 200px;
+    border-bottom: 1px #333 solid;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+div.miniwindow div.corpo div.mensagens ul.listar{
+    float: left;
+    list-style: none;
+    display: block;
+    width: 230px;
+}
+div.miniwindow div.corpo div.mensagens ul.listar li{
+    float: left;
+    width: 100%;
+    padding-bottom: 3px;
+    border-bottom: 2px #ccc dotted;
+    
+    
+}
+div.miniwindow div.corpo div.mensagens ul.listar li span{
+
+    font: 13px tahoma;
+    coor:#333;
+    float: left;
+    width: 100%;
+    margin: 3px;
+    
+}
+div.miniwindow div.corpo div.mensagens ul.listar li p{
+
+    font: 13px tahoma;
+    color:#333;
+    float: left;
+    width: 100%;
+    margin-left: 3px;
+    
+}
+div.usernametop.fixar{    position: absolute;    bottom: 0px; }
+div.usernametop a{
+    text-decoration: none;
+    float: left;
+    font:14px Tahoma,arial,helvetica;
+    color:#fff;
+    margin: 0px;
+    padding: 5px;
+    
+}
+div.usernametop:hover{
+    background-color: #f4f4f4;
+}
+div.usernametop:hover a{
+    color: #333;
+}
+div.usernametop .fechar{
+    text-decoration: none;
+    float: right;
+    font:10px Tahoma,arial,helvetica;
+    color:#fff;
+    height: 15px;
+    display: block;
+    font-weight: bold;
+}
+div.usernametop .fechar:hover{
+    background-color: #ccc;
+    
+}
+div.usernametop{
+    float: left;
+    width: 230px;
+    background: #036;
+    height: 25px;
+    border-bottom: 1px #333 solid;
+    cursor: pointer;
+    display: block;
+    
+    
+}
